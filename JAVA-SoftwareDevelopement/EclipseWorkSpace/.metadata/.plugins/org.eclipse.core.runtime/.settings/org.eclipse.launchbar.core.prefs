@@ -1,0 +1,15 @@
+LaunchTargetManager/configs/HW1=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/HW2=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Operator=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/ScannerDemo=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:MyHelloWorld,org.eclipse.launchbar.core.descriptorType.default\:Hello,org.eclipse.launchbar.core.descriptorType.default\:StringExample,org.eclipse.launchbar.core.descriptorType.default\:Operator,org.eclipse.launchbar.core.descriptorType.default\:DecimalFormatDemo,org.eclipse.launchbar.core.descriptorType.default\:PrintDemo,org.eclipse.launchbar.core.descriptorType.default\:ScannerDemo,org.eclipse.launchbar.core.descriptorType.default\:FileTest,org.eclipse.cdt.debug.core.coreBuildDescriptorType\:apple,org.eclipse.launchbar.core.descriptorType.default\:SelectionStatements,org.eclipse.launchbar.core.descriptorType.default\:HW1,org.eclipse.launchbar.core.descriptorType.default\:Farm,org.eclipse.launchbar.core.descriptorType.default\:HW2
+eclipse.preferences.version=1
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:apple/activeLaunchMode=run
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:apple/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:DecimalFormatDemo/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:DecimalFormatDemo/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:MyHelloWorld/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:MyHelloWorld/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

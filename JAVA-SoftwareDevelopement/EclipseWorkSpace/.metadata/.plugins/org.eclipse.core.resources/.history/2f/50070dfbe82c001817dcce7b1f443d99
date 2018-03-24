@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class HW1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Please enter an input string:");
+		//System.out.println("args[] = "+ args);
+		Scanner scanner = new Scanner(System.in);
+		String str1,str2,str3; 
+		str1 = scanner.next();
+		str2 = scanner.next();
+		str3 = scanner.next();
+		System.out.println("str1:"str1);
+		System.out.println("str2:"str2);
+		System.out.println("str3:"str3);
+
+	}
+
+}

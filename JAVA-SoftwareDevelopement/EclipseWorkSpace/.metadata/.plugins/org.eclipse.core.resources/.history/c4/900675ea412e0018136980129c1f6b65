@@ -1,0 +1,9 @@
+
+public class Duck {
+	public boolean canfly = false;
+	
+	public void quack() {
+		System.out.println("Quack!");
+	}
+
+}

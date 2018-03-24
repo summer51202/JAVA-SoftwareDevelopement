@@ -1,0 +1,13 @@
+
+public class HW1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Please enter an input string:");
+		//System.out.println("args[] = "+ args);
+		Scanner scanner = new Scanner(System.in);
+		String str1 = scanner.nextLine();
+
+	}
+
+}

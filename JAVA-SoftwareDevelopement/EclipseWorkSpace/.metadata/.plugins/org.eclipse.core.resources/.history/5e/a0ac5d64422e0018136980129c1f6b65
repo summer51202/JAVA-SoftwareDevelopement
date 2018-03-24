@@ -1,0 +1,15 @@
+
+public class Duck {
+	public boolean canfly = false;
+	
+	public void quack() {
+		System.out.println("Quack!");
+	}
+
+}
+
+public class Farm{
+	public static void main(String[] args) {
+		Duck duck= new Duck();
+	}
+}
