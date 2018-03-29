@@ -28,7 +28,3 @@ public class HW2 {
 
 }
 // double Scanner.nextDouble(): Scans the next token of the input as a double.
-// DecimalFormat(string pattern)<Constructor> : Creates a DecimalFormat using the given pattern and the symbols for the default locale
-// String DecimalFormat.format(double number) : Formats a double to produce a string.
-// static double Math.pow(double a, double b) : Returns the value of the first argument raised to the power of the second argument.
-// static double Math.sqrt(double a) : Returns the correctly rounded positive square root of a double value.
