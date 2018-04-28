@@ -1,0 +1,12 @@
+package HW5_2;
+
+import java.util.ArrayList;
+
+public class Department {
+	public ArrayList<String> products(){
+		return products;
+	}
+	
+	public String name, manager;
+	public ArrayList<String> products;
+}

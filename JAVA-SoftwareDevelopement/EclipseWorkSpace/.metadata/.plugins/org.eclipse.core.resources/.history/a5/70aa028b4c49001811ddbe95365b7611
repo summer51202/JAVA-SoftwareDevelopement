@@ -1,0 +1,23 @@
+package HW5;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String input_1 = scanner.next();
+		String input_2 = scanner.next();
+		System.out.println(input_1 + "" +input_2);
+		
+		if(input_2.equals("Document")) {
+			System.out.println("0");
+		}else if (input_2.equals("Email")) {
+			System.out.println("1");
+		}else (input_2.equals("File")) {
+			System.out.println("2");
+		}
+
+	}
+
+}

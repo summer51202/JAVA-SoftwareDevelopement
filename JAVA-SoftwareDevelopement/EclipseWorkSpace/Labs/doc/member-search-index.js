@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"AnonymousObjectTest","l":"AnonymousObjectTest()"},{"p":"<Unnamed>","c":"AnonymousObjectTest","l":"main(String[])","url":"main-java.lang.String:A-"},{"p":"<Unnamed>","c":"AnonymousObjectTest","l":"showMessage(String)","url":"showMessage-java.lang.String-"}]

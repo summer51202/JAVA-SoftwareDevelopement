@@ -1,0 +1,6 @@
+package HW5_2;
+
+public class Person {
+	public String name, address;
+	private String socialSecurityNumber;
+}

@@ -1,0 +1,11 @@
+package HW5_2;
+
+public class Product {
+	public String madeBy() {
+		return department;
+	}
+	
+	public String name, deparment;
+	public Double cost, weight;
+	
+}

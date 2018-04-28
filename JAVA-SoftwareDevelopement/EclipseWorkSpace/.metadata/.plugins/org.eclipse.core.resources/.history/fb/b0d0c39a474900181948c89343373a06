@@ -1,0 +1,10 @@
+package HW5;
+
+public class Email extends document{
+	public String toString() {
+		String alltext = title + "/n" + recipient + "/n" + text + "/n" + sender;
+		return alltext;
+	}
+	
+	public String sender, recipient, title;
+}

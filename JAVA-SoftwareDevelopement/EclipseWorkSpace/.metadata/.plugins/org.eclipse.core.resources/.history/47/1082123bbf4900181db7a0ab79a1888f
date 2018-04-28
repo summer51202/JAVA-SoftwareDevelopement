@@ -1,0 +1,5 @@
+package DeepCopy;
+
+public class B implements Cloneable{
+	public int speed = 100;
+}

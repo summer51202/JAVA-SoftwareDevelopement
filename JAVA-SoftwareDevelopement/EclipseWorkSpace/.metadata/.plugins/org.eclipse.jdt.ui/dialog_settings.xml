@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="filter_imports;" key="filters_last_used"/>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\Labs\javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="C:\Program Files\Java\jdk-9.0.4\bin\javadoc.exe;C:\Program Files\Java\jdk-9.0.4\jdk-9.0.4_windows-x64_bin.exe;D:\computerScience\JAVA\jdk-9.0.4_windows-x64_bin.exe" key="javadoc_command_history"/>
+		<item value="9" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\Labs\doc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="A">
+				<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\A\javadoc.xml" key="antpath"/>
+				<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\A\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="apple">
+				<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\apple\javadoc.xml" key="antpath"/>
+				<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\apple\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Labs">
+				<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\Labs\javadoc.xml" key="antpath"/>
+				<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\Labs\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RemoteSystemsTempFiles">
+				<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
+				<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\RemoteSystemsTempFiles\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Homework">
+				<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\Homework\javadoc.xml" key="antpath"/>
+				<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\Homework\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="firstTest">
+				<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\firstTest\javadoc.xml" key="antpath"/>
+				<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\firstTest\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
 		<item value="true" key="group_libraries"/>
@@ -33,6 +85,19 @@
 			<list key="workingSets">
 			</list>
 		</section>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="718" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft JhengHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft JhengHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="675" key="DIALOG_HEIGHT"/>
+		<item value="629" key="DIALOG_X_ORIGIN"/>
+		<item value="262" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="NewPackageWizardPage">
+		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="3" key="pageIndex"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

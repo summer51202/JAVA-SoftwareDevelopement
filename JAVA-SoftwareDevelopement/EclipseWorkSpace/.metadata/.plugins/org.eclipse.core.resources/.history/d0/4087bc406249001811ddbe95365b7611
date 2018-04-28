@@ -1,0 +1,9 @@
+package HW5_2;
+
+public class Manager extends Person{
+	public void beResponsibleFor(Project p) {
+		projects.add(p.toString());
+	}
+	
+	public String deparment;
+}

@@ -1,0 +1,11 @@
+package HW5_2;
+
+public class Company {
+	public void hire(Person person) {
+		
+	}
+	public void fire(Person person) {
+		
+	} 
+	public String name, address, phoneNumber, primaryProduct;
+}

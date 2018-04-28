@@ -1,0 +1,16 @@
+package HW5;
+
+public class File extends document{
+	public String toString() {
+		String alltext = "Pathname : " + pathname + "/n" + "File : " + text;
+		return alltext;
+	}
+	public void setPathname(String str) {
+		pathname = str;
+	}
+	public String getPathname() {
+		return pathname;
+	}
+	
+	public String pathname;
+}
