@@ -4,35 +4,57 @@ import java.awt.BorderLayout;
 import java.awt.Button;
 import java.awt.CardLayout;
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.Label;
+import java.awt.ScrollPane;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JList;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.border.LineBorder;
 
 public class MainPage extends JFrame implements ActionListener{
 	
 	public MainPage() {
 		setSize(800, 600);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//		setLayout(null);
-		setVisible(true);
 		setTitle("Main");
+		
+		//add boreder in MainPage
+		mainBoreder = new JPanel(new BorderLayout());
+		mainBoreder.setBorder(new LineBorder(new Color(0, 0, 0, 0), 30));
+		
+		//main functionality in MainPage
+//		ArrayList<String> fList = new ArrayList(Arrays.asList("friendA", "friendB", "friendC"));
+		String[] fList = {"friendA", "friendB", "friendC", "friendD", "friendE", "friendF"};
+		friendList = new JList(fList);
+		friendList.setFixedCellHeight(100);
+		scroll = new JScrollPane(friendList);
+
+
+
 		
 		pageBlock = new JPanel();
 		cardLayout = new CardLayout();
 		pageBlock.setLayout(cardLayout);
-		pageBlock.add(new Label("friends"), "friends");
+			//?:add(Component comp, String str);
+		
+		pageBlock.add(friendList, "friends");
 		pageBlock.add(new Label("chatrooms"), "chatrooms");
 		pageBlock.add(new Label("settings"), "settings");
-		
 		buttonBlock = new JPanel();
-		buttonBlock.setLayout(new FlowLayout());
+		buttonBlock.setLayout(new GridLayout(3, 1));
+		buttonBlock.setBackground(Color.black);
+		buttonBlock.setPreferredSize(new Dimension(150, 0));
 		friends = new JButton("friends");
 		friends.addActionListener(this);
 		chatRoom = new JButton("chatrooms");
@@ -43,10 +65,12 @@ public class MainPage extends JFrame implements ActionListener{
 		buttonBlock.add(chatRoom);
 		buttonBlock.add(settings);
 		
-		add(pageBlock, BorderLayout.CENTER);
-		add(buttonBlock, BorderLayout.NORTH);
-//		JPanel friendList = new JPanel();
-//		friendList.setBackground(Color.BLACK);
+		mainBoreder.add(pageBlock, BorderLayout.CENTER);
+		mainBoreder.add(buttonBlock, BorderLayout.WEST);
+		add(mainBoreder);
+//		pack();
+		
+		
 //		friendList.setLocation(50, 50);
 //		friendList.setSize(100, 400);
 //		friendA = new JButton("FriendA");
@@ -115,7 +139,9 @@ public class MainPage extends JFrame implements ActionListener{
 	}
 	MessageDialogue mDialogue;
 	JButton friendA;
-	JPanel buttonBlock, pageBlock;
+	JPanel buttonBlock, pageBlock, mainBoreder;
 	JButton friends, chatRoom, settings;
 	CardLayout cardLayout;
+	JList friendList;
+	JScrollPane scroll;
 }
