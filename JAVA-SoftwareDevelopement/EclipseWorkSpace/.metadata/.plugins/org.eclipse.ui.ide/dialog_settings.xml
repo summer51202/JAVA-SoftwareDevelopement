@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\p1"/>
+		<item value="D:\computerScience\Git\JAVA-SoftwareDevelopement\EclipseWorkSpace\LIME-master"/>
 		<item value="D:\computerScience\Eclipse\EclipseWorkSpace\Example File\src\demo"/>
 	</list>
 	<section name="NewWizardAction">

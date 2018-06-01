@@ -1,5 +1,0 @@
-package DeepCopy;
-
-public class B {
-	public int speed = 100;
-}

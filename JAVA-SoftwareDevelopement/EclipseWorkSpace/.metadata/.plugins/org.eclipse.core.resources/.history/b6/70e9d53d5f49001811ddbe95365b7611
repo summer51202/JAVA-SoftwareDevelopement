@@ -1,7 +1,0 @@
-package HW5_2;
-
-public class Manager extends Person{
-	public void beResponsibleFor(Project project) {
-		
-	}
-}

@@ -1,7 +1,0 @@
-package HW5_2;
-
-public class Product {
-	public String name;
-	public Double cost, weight;
-	
-}

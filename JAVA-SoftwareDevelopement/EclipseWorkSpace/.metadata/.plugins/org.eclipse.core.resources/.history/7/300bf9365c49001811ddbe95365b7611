@@ -1,5 +1,0 @@
-package HW5_2;
-
-public class Worker extends Person{
-	public workOn
-}

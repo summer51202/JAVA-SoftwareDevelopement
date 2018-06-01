@@ -1,8 +1,0 @@
-package HW5_2;
-
-import java.util.ArrayList;
-
-public class Department {
-	public String name, manager;
-	public ArrayList<String> products;
-}
